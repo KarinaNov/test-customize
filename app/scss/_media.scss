@@ -1,0 +1,36 @@
+@media (max-width: 1024px) {
+    .singup-item {
+        width: 50%;
+    }
+    .singup-form{
+        width: 50%;
+    }
+ }
+
+ @media (max-width: 768px) {
+    .singup-items {
+    flex-direction: column;
+    margin: 0 auto;
+    }
+    .singup-item {
+        width: 90%;
+    }
+    .singup-form{
+        width: 90%;
+        margin: 40px 20px;
+    }
+ }
+
+ @media (max-width: 425px) {
+    .singup-item__title {
+        font-size: 32px;
+        line-height: 46px;
+    }
+    .singup-item__text {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .singup-item__box {
+        padding: 22px 24px;
+    }
+ }
